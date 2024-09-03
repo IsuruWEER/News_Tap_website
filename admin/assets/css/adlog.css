@@ -1,0 +1,98 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212; /* Dark grey background */
+  }
+  
+  @media (min-width: 768px) { /* Adjust breakpoint as needed */
+    body {
+      background-color: #0f0f0f; /* Darker grey for larger screens */
+    }
+  }
+
+/* Container */
+.container-alt {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Card Wrapper */
+.wrapper-page {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+/* Logo Section */
+.account-logo-box {
+    margin-bottom: 30px;
+}
+
+.account-logo-box img {
+    height: 56px;
+}
+
+/* Form */
+.account-content {
+    margin-top: 20px;
+}
+
+.form-control {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-control:focus {
+    border-color: #6e8efb;
+    outline: none;
+}
+
+/* Button */
+.btn {
+    background: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+.btn:hover {
+    background: #c9302c;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.m-t-40 {
+    margin-top: 40px;
+}

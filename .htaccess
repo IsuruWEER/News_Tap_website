@@ -1,0 +1,53 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Redirect to HTTPS (optional)
+# This forces all traffic to use HTTPS instead of HTTP
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Custom 404 error page
+ErrorDocument 404 /404.html
+
+# Set the default character encoding to UTF-8
+AddDefaultCharset UTF-8
+
+# Prevent directory listing
+Options -Indexes
+
+# Block access to .htaccess file itself
+<Files .htaccess>
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Block access to specific file types (e.g., .env, .ini)
+<FilesMatch "\.(env|ini|log|sh|bak|sql)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Caching for images, CSS, and JS files
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+# Handle URL Rewrites (if you have clean URLs, like in CMS systems)
+# Example: Redirect "site.com/about" to "site.com/index.php?page=about"
+# Uncomment and modify as needed
+# RewriteRule ^about$ /index.php?page=about [L]
+
+# Enable Gzip compression for faster load times
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+</IfModule>
+
+php_flag display_errors off
+php_value display_startup_errors off
+php_value log_errors on
