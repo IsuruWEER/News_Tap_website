@@ -1,0 +1,30 @@
+:root {
+  --padding-top-mobile: 54px;
+  --padding-top-desktop: 56px;
+  --carousel-height: 65vh;
+  --carousel-min-height: 300px;
+  --portfolio-margin-bottom: 30px;
+}
+
+body {
+  padding-top: var(--padding-top-mobile);
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: var(--padding-top-desktop);
+  }
+}
+
+.carousel-item {
+  height: var(--carousel-height);
+  min-height: var(--carousel-min-height);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: var(--portfolio-margin-bottom);
+}
