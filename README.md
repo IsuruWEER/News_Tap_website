@@ -42,8 +42,3 @@ NewsTap is a state-of-the-art news aggregation service that collects articles fr
 - **Advanced Search**: Introduce filter and sort options for improved search functionality.
 - **User Portfolios**: Allow content creators to showcase their articles and build portfolios within the platform.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/IsuruWEER/News_Tap_website.git
