@@ -8,7 +8,6 @@ NewsTap is a state-of-the-art news aggregation service that collects articles fr
 - **News Aggregation**: Collects news articles from various categories (Politics, Technology, Sports, Entertainment, etc.).
 - **Real-Time Comments**: Allows users to engage in discussions with instant display of comments.
 - **Search Functionality**: Enables users to search for specific articles.
-- **Admin-Generated Content**: Registered users can submit their own articles for review.
 - **Responsive Design**: Fully functional across desktops, tablets, and mobile devices.
 
 ### Admin-Facing Features
