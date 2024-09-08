@@ -32,7 +32,7 @@ NewsTap is a state-of-the-art news aggregation service that collects articles fr
 ## Challenges and Solutions
 - **Cross-Browser Compatibility**: Used CSS resets and polyfills to ensure smooth operation across different browsers.
 - **Responsive Design**: Implemented a mobile-first approach using media queries for optimal viewing across devices.
-- **Security Measures**: Incorporated input sanitization, strong password hashing (decrypt), and SSL certificates for secure data transmission.
+- **Security Measures**: Incorporated input sanitization, strong password hashing (encrypt), and SSL certificates for secure data transmission.
 
 ## Future Enhancements
 - **Real-Time Notifications**: Implement real-time alerts for new articles and comments.
