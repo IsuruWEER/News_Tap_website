@@ -1,0 +1,137 @@
+.search-body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.search-input-group {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+    flex: 1;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 50px 0 0 50px;
+    transition: background-color 0.3s ease;
+}
+
+.search-input:focus {
+    background-color: #e9ecef;
+}
+
+.search-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    background-color: #fd2e2e;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #000000;
+}
+
+/* General styles for the section title */
+.section-title {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #fd2e2e;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Styles for the section content */
+  .section-content {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  
+  /* Styles for the category list */
+  .category-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Styles for each category item */
+  .category-item {
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for list without bullet points */
+  .list-style {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Georgia', 'Times New Roman', serif;
+  }
+  
+  /* Optional: Add some spacing to list items */
+  .list-style li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Styles for the section heading */
+.section-heading {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #fd2e2e; /* Red color border */
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  /* Styles for the news container */
+  .news-container {
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  /* Styles for the news list */
+  .news-list {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Optional: Add spacing and styling to list items */
+  .news-list li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .news-list li:last-child {
+    border-bottom: none;
+  }
+  

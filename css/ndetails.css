@@ -1,0 +1,84 @@
+
+/* Card styling */
+.comment-card {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Header styling */
+.comment-header {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+/* Body styling */
+.comment-body {
+    padding: 10px;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Input and textarea styling */
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Textarea specific styling */
+.form-textarea {
+    resize: vertical;
+}
+
+/* Button styling */
+.submit-btn {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #d62839;
+}
+
+.submit-btn:active {
+    background-color: #a11a28;
+}
+
+.card-body{
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.catego {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: #f33939;
+    background: linear-gradient(to bottom, #f33939, #f33939);
+    color: #fafafa;
+    align-self: flex-start;
+    padding: .25em .75em;
+    border-radius: 1em;
+    font-size: .75rem;
+  }
+.ard-text{
+    font-family: 'Georgia', 'Times New Roman', serif;
+
+}

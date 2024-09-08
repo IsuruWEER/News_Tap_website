@@ -1,0 +1,102 @@
+.slowFade {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    height: 350px; /* Set the height to 750px */
+    overflow: hidden;
+    position: relative;
+}
+
+.slowFade .slide img {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    background: #000;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    opacity: 0;
+    transform: scale(1.5) rotate(15deg);
+    -webkit-animation: slowFade 32s infinite;
+            animation: slowFade 32s infinite;
+}
+
+/* Delay settings for each slide */
+.slowFade .slide:nth-child(3) img {
+    -webkit-animation-delay: 8s;
+            animation-delay: 8s;
+}
+
+.slowFade .slide:nth-child(2) img {
+    -webkit-animation-delay: 16s;
+            animation-delay: 16s;
+}
+
+.slowFade .slide:nth-child(1) img {
+    -webkit-animation-delay: 24s;
+            animation-delay: 24s;
+}
+
+/* Keyframes for fade and transform effect */
+@keyframes slowFade {
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+    40% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slowFade {
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+    40% {
+        opacity: 0;
+    }
+}
+
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination-item {
+    margin: 0 5px;
+}
+
+.pagination-link {
+    display: block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.pagination-link:hover {
+    background-color: #ddd;
+}
+
+.pagination-item.disabled .pagination-link,
+.pagination-item.active .pagination-link {
+    background-color: #FF5C5C; /* Your theme color */
+    color: #fff;
+    pointer-events: none;
+    cursor: default;
+}
+
+.pagination-item.active .pagination-link {
+    font-weight: bold;
+}
+
+.pagination-link:active {
+    background-color: #ff0000;
+    color: #fff;
+}
