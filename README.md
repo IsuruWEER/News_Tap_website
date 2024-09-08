@@ -1,5 +1,5 @@
 # NewsTap - Web-Based News Aggregation Platform
-https://newstap.wuaze.com
+https://newstap.wuaze.com<br>
 NewsTap is a state-of-the-art news aggregation service that collects articles from various reputable sources, presenting users with a comprehensive, real-time news feed. It offers interactive features like user comments, content creation, and a responsive design, ensuring a smooth user experience across devices.
 
 ## Key Features
