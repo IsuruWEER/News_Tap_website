@@ -30,10 +30,6 @@ NewsTap is a state-of-the-art news aggregation service that collects articles fr
 - **PHP**: Handles server-side scripting and content management.
 - **MySQL**: Relational database used for storing news articles, user data, and comments.
 
-### Server and Hosting
-- **Operating System**: Ubuntu 22.04 LTS.
-- **Server**: Linux-based Virtual Private Server (VPS) hosted on InfinityFree.
-
 ## Challenges and Solutions
 - **Cross-Browser Compatibility**: Used CSS resets and polyfills to ensure smooth operation across different browsers.
 - **Responsive Design**: Implemented a mobile-first approach using media queries for optimal viewing across devices.
